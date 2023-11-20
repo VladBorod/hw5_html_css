@@ -1,0 +1,379 @@
+@font-face {
+    font-family: "GilroyBold";
+    src: url("../fonts/GilroyBold.eot");
+    src: url("../fonts/GilroyBold.eot?#iefix")format("embedded-opentype"), url("../fonts/GilroyBold.woff") format("woff"), url("../fonts/GilroyBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+body {
+    width: 1915px;
+    height: 1410px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.center {
+    background: #FFF;
+    padding-left: calc(50% - 957.5px);
+    padding-right: calc(50% - 957.5px);
+}
+
+
+/* header--------------------------------------- */
+
+.header {
+    width: 1899px;
+    height: 476px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    gap: 30px;
+    border: 1px solid #F30606;
+    padding-bottom: 15px;
+}
+
+.header_content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding-top: 105px;
+    padding-bottom: 95px;
+    padding-left: 364px;
+    padding-right: 359px;
+}
+
+
+/* header menu----------------------------------- */
+
+.header_content_menu1 {
+    border: 1px solid #000;
+    width: 381px;
+    height: 291px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.header_content_menu2 {
+    border: 1px solid #000;
+    width: 381px;
+    height: 291px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.header_content_menu3 {
+    border: 1px solid #000;
+    width: 381px;
+    height: 291px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+/* header menu filling-------------------------- */
+
+.header_content_menu_img {
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+    border: 0px #000;
+}
+
+.header_content_menu_title_1 {
+    width: 215px;
+    height: 30px;
+    color: #000;
+    font-family: "GilroyBold";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header_content_menu_title_2 {
+    width: 197px;
+    height: 30px;
+    color: #000;
+    font-family: "GilroyBold";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header_content_menu_title_3 {
+    width: 186px;
+    height: 30px;
+    color: #000;
+    font-family: "GilroyBold";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header_content_menu_text {
+    width: 310px;
+    height: 42px;
+    flex-shrink: 0;
+    color: #666;
+    font-family: "GilroyRegular";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+}
+
+.header_content_menu_link {
+    width: 64px;
+    height: 17px;
+    color: #000;
+    font-family: "GilroyBold";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    border: none;
+    background-color: #FFF;
+    /* 16.5px */
+}
+
+
+/* top-----------------------------------------  */
+
+.top {
+    width: 1920px;
+    height: 919px;
+    flex-shrink: 0;
+    border: 1px solid #0A06E8;
+    margin-top: 15px;
+    background: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/* top head------------------------------------ */
+
+.top_head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+    padding-bottom: 31px;
+    background: #FAFAFA;
+}
+
+
+/* top head filling----------------------------- */
+
+.top_head_title {
+    width: 579px;
+    height: 56px;
+    color: #000;
+    font-family: "GilroyBold";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* padding-top: 107px; */
+}
+
+.top_head_text {
+    width: 682px;
+    height: 48px;
+    color: #666;
+    text-align: center;
+    font-family: "GilroyRegular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+
+/* top content--------------------------------- */
+
+.top_content {
+    width: 1440px;
+    height: 616px;
+    border: 1px solid #000;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: #FAFAFA;
+    gap: 30px;
+    padding-top: 31px;
+    padding-bottom: 45px;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+}
+
+.top_content_menu1 {
+    width: 370px;
+    height: 549px;
+    padding-top: 24px;
+    border: 1px solid #000;
+    border-collapse: separate;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #FFF;
+}
+
+.top_content_menu2 {
+    width: 370px;
+    height: 549px;
+    padding-top: 24px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #FFF;
+}
+
+.top_content_menu3 {
+    width: 370px;
+    height: 549px;
+    padding-top: 24px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/* top content filling-------------------------- */
+
+.top_content_menu_img_1 {
+    width: 385px;
+    height: 289px;
+    flex-shrink: 0;
+}
+
+.top_content_menu_img_2 {
+    width: 396px;
+    height: 297px;
+    flex-shrink: 0;
+}
+
+.top_content_menu_img_3 {
+    width: 400px;
+    height: 300px;
+    flex-shrink: 0;
+}
+
+.top_content_menu_title_1 {
+    width: 204px;
+    height: 30px;
+    color: #000;
+    font-family: "GilroyBold";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top_content_menu_title_2 {
+    width: 208px;
+    height: 30px;
+    color: #000;
+    font-family: "GilroyBold";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top_content_menu_title_3 {
+    width: 187px;
+    height: 30px;
+    color: #000;
+    font-family: "GilroyBold";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top_content_menu_text {
+    width: 310px;
+    height: 63px;
+    flex-shrink: 0;
+    color: #AAA;
+    text-align: center;
+    font-family: "Gilroy-Regular";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+}
+
+.top_content_menu_button {
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border: none;
+}
+
+.top_content_button_text {
+    color: #FFF;
+    text-align: center;
+    font-family: "Gilroy-"Bold;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 19.5px */
+}
+
+.top_content_menu_pseudo {
+    width: 4px;
+    height: 8px;
+    flex-shrink: 0;
+}

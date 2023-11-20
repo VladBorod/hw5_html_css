@@ -1,0 +1,86 @@
+1 lvl
+grid-column-start: 3
+
+2 lvl
+grid-column-start: 5
+
+3 lvl
+grid-column-end: 4;
+
+4 lvl
+grid-column-end: 2;
+
+5 lvl
+grid-column-end: -2;
+
+6 lvl
+grid-column-start: -3
+
+7 lvl
+grid-column-end: span 2;
+
+8 lvl
+grid-column-end: span 5;
+
+9 lvl
+grid-column-start: 3;
+
+10 lvl
+grid-column: 4/6;
+
+11 lvl
+grid-column: span 3/5
+
+12 lvl
+grid-row-start: 3
+
+13 lvl
+grid-row: span 3/6
+
+14 lvl
+grid-column-start: 2;
+grid-row-end: 6;
+
+15 lvl
+grid-column: span 4/6;
+grid-row: span 5/6;
+
+16 lvl
+grid-area: 1/2/4/6
+
+17 lvl
+grid-area: 2 / 6 / 5 / 3
+
+18 lvl
+order: 5
+
+19 lvl
+order: -1
+
+20 lvl
+grid-template-columns: 50%;
+
+21 lvl
+grid-template: 94% 50px / 1fr 4fr
+
+22 lvl
+grid-template-columns: 100px 3em 40%;
+
+23 lvl
+grid-template-columns: 1fr 5fr;
+
+24 lvl
+grid-template-columns: 50px 1fr 1fr 1fr 50px;
+
+25 lvl
+grid-template-columns: 75px 3fr 2fr;
+
+26 lvl
+grid-template-rows: 50px 0 0 0 1fr;
+
+27 lvl
+grid-template: 60% / 200px
+
+28 lvl
+grid-template: 94% 50px / 1fr 4fr
+
