@@ -21,9 +21,9 @@ body {
 }
 
 
-/* header--------------------------------------- */
+/* motto--------------------------------------- */
 
-.header {
+.motto {
     width: 1899px;
     height: 476px;
     display: grid;
@@ -34,7 +34,7 @@ body {
     padding-bottom: 15px;
 }
 
-.header_content {
+.motto_content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
@@ -45,9 +45,9 @@ body {
 }
 
 
-/* header menu----------------------------------- */
+/* motto menu----------------------------------- */
 
-.header_content_menu1 {
+.motto_content_menu1 {
     border: 1px solid #000;
     width: 381px;
     height: 291px;
@@ -59,7 +59,7 @@ body {
     flex-wrap: wrap;
 }
 
-.header_content_menu2 {
+.motto_content_menu2 {
     border: 1px solid #000;
     width: 381px;
     height: 291px;
@@ -71,7 +71,7 @@ body {
     flex-wrap: wrap;
 }
 
-.header_content_menu3 {
+.motto_content_menu3 {
     border: 1px solid #000;
     width: 381px;
     height: 291px;
@@ -86,14 +86,14 @@ body {
 
 /* header menu filling-------------------------- */
 
-.header_content_menu_img {
+.motto_content_menu_img {
     width: 70px;
     height: 70px;
     flex-shrink: 0;
     border: 0px #000;
 }
 
-.header_content_menu_title_1 {
+.motto_content_menu_title_1 {
     width: 215px;
     height: 30px;
     color: #000;
@@ -104,7 +104,7 @@ body {
     line-height: normal;
 }
 
-.header_content_menu_title_2 {
+.motto_content_menu_title_2 {
     width: 197px;
     height: 30px;
     color: #000;
@@ -115,7 +115,7 @@ body {
     line-height: normal;
 }
 
-.header_content_menu_title_3 {
+.motto_content_menu_title_3 {
     width: 186px;
     height: 30px;
     color: #000;
@@ -126,7 +126,7 @@ body {
     line-height: normal;
 }
 
-.header_content_menu_text {
+.motto_content_menu_text {
     width: 310px;
     height: 42px;
     flex-shrink: 0;
@@ -136,10 +136,9 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
-    /* 22.5px */
 }
 
-.header_content_menu_link {
+.motto_content_menu_link {
     width: 64px;
     height: 17px;
     color: #000;
@@ -160,9 +159,9 @@ body {
 }
 
 
-/* top-----------------------------------------  */
+/* advantages-----------------------------------------  */
 
-.top {
+.advantages {
     width: 1920px;
     height: 919px;
     flex-shrink: 0;
@@ -176,9 +175,9 @@ body {
 }
 
 
-/* top head------------------------------------ */
+/* advantages head------------------------------------ */
 
-.top_head {
+.advantages_head {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -188,9 +187,9 @@ body {
 }
 
 
-/* top head filling----------------------------- */
+/* advantages head filling----------------------------- */
 
-.top_head_title {
+.advantages_head_title {
     width: 579px;
     height: 56px;
     color: #000;
@@ -202,7 +201,7 @@ body {
     /* padding-top: 107px; */
 }
 
-.top_head_text {
+.advantages_head_text {
     width: 682px;
     height: 48px;
     color: #666;
@@ -212,13 +211,12 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
-    /* 24px */
 }
 
 
-/* top content--------------------------------- */
+/* advantages content--------------------------------- */
 
-.top_content {
+.advantages_content {
     width: 1440px;
     height: 616px;
     border: 1px solid #000;
@@ -234,7 +232,7 @@ body {
     justify-items: center;
 }
 
-.top_content_menu1 {
+.advantages_content_menu1 {
     width: 370px;
     height: 549px;
     padding-top: 24px;
@@ -249,7 +247,7 @@ body {
     background: #FFF;
 }
 
-.top_content_menu2 {
+.advantages_content_menu2 {
     width: 370px;
     height: 549px;
     padding-top: 24px;
@@ -263,7 +261,7 @@ body {
     background: #FFF;
 }
 
-.top_content_menu3 {
+.advantages_content_menu3 {
     width: 370px;
     height: 549px;
     padding-top: 24px;
@@ -277,27 +275,27 @@ body {
 }
 
 
-/* top content filling-------------------------- */
+/* advantages content filling-------------------------- */
 
-.top_content_menu_img_1 {
+.advantages_content_menu_img_1 {
     width: 385px;
     height: 289px;
     flex-shrink: 0;
 }
 
-.top_content_menu_img_2 {
+.advantages_content_menu_img_2 {
     width: 396px;
     height: 297px;
     flex-shrink: 0;
 }
 
-.top_content_menu_img_3 {
+.advantages_content_menu_img_3 {
     width: 400px;
     height: 300px;
     flex-shrink: 0;
 }
 
-.top_content_menu_title_1 {
+.advantages_content_menu_title_1 {
     width: 204px;
     height: 30px;
     color: #000;
@@ -308,7 +306,7 @@ body {
     line-height: normal;
 }
 
-.top_content_menu_title_2 {
+.advantages_content_menu_title_2 {
     width: 208px;
     height: 30px;
     color: #000;
@@ -319,7 +317,7 @@ body {
     line-height: normal;
 }
 
-.top_content_menu_title_3 {
+.advantages_content_menu_title_3 {
     width: 187px;
     height: 30px;
     color: #000;
@@ -330,7 +328,7 @@ body {
     line-height: normal;
 }
 
-.top_content_menu_text {
+.advantages_content_menu_text {
     width: 310px;
     height: 63px;
     flex-shrink: 0;
@@ -344,7 +342,7 @@ body {
     /* 22.5px */
 }
 
-.top_content_menu_button {
+.advantages_content_menu_button {
     width: 150px;
     height: 50px;
     flex-shrink: 0;
@@ -361,7 +359,7 @@ body {
     border: none;
 }
 
-.top_content_button_text {
+.advantages_content_button_text {
     color: #FFF;
     text-align: center;
     font-family: "Gilroy-"Bold;
@@ -372,7 +370,7 @@ body {
     /* 19.5px */
 }
 
-.top_content_menu_pseudo {
+.advantages_content_menu_pseudo {
     width: 4px;
     height: 8px;
     flex-shrink: 0;
